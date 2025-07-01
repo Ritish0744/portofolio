@@ -1,0 +1,161 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+@media only screen and (max-width:450px){
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
+}
+:root{
+  --color:rgb(36, 57, 59);
+}
+  
+
+
+header {
+  background-color: lch(77.74% 32.44 145.31);
+
+  height: 320px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+nav {
+  text-align: right;
+  position: sticky;
+  top: 15px;
+  
+  
+  
+  
+
+
+}
+
+ul a {
+
+box-shadow: -0px 0px 2px 2px lch(68.86% 43.99 144.27);
+  color: black;
+  padding: 8px 16px;
+  margin: 0 10px;
+  background-color: white;
+  border: 1px  rgb(152, 241, 182);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  box-shadow: none;
+  transition: 0.2s;
+  
+
+  background-color: oklab(52.337% -0.10445 0.0265);
+  color: rgb(255, 255, 255);
+}
+nav a:hover:active{
+ box-shadow: -0px 0px 2px 2px lch(68.48% 31.26 145.32);
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  padding: 8px 16px;
+  color: var(--color);
+  border: 1px;
+  border-radius: 4px;
+}
+
+u {
+  box-shadow: 0px 0px 7px 8px lch(68.48% 31.26 145.32);
+  border: 2px lch(77.74% 32.44 145.31);
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(199, 241, 229);
+  margin: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+
+
+
+h4 {
+
+
+  margin-left: 20px;
+  height: 150px;
+  width: 130px;
+  box-sizing: border-box;
+
+}
+
+main {
+  margin: 10px;
+  color:var(--color);
+  height: 500px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+b {
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+  border: 10px rgb(7, 156, 37);
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+
+  padding: 10px;
+
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+
+}
+
+button {
+  box-shadow: -0px 0px 2px 2px lch(68.86% 43.99 144.27);
+  padding: 8px 16px;
+  border: 1px  rgb(66, 224, 166);
+  border-radius: 4px;
+  text-shadow: #ffffff;
+
+}
+
+button:hover {
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #076f47;
+   transition: 0.2s;
+}
+button:hover:active{
+   box-shadow: -0px 0px 2px 2px lch(68.48% 31.26 145.32);
+}
+input{
+  border-radius: 4px;
+  padding: 4px;
+  border-color: #076f47;
+  
+}
+
+
+footer {
+  background-color: rgb(45, 185, 140);
+  height: 110px;
+  border-radius: 10px;
+  padding: 20px;
+}
